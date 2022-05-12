@@ -12,7 +12,7 @@ select * from mydataset.newtable where transaction_date = current_date();
 drop table if exists mydataset.newtable;
 
 SELECT ddl
-FROM  GA.INFORMATION_SCHEMA.TABLES
+FROM  mydataset.INFORMATION_SCHEMA.TABLES
 WHERE  table_name="newtable";
 
 
